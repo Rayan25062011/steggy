@@ -19,8 +19,11 @@ s = steg()
 s = s.send(site="https://example.com", data="this is an example", display_response=True)
 ```
 Definition:
+
 site: Site is the website on which you would like to perform your activity
+
 data: Data is the data you would like to send to the requested website
+
 display_response: display_response means you would like to show the response from the website
 
 ## Getting data
@@ -32,5 +35,7 @@ s = steg()
 s = s.find(site="https://example.com", data="example2", display_response=True, content=True, headers="")
 ```
 New definitions:
+
 content: content is the content received by the website, if you enable it, it will show any terminal UI
+
 headers: headers is an HTTP header you can use while getting some data
