@@ -19,7 +19,7 @@ setup(
     package_dir={"steg": "steg"},
     entry_points={"console_scripts": ["steg=steg._steg:run"]},
     author='Rayan25062011',
-    url='https://github.com/Rayan25062011/steg',
+    url='https://github.com/Rayan25062011/Steg',
     packages=find_packages(),
     license='Apache-2.0 License',
     install_requires=[
