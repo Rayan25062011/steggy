@@ -10,16 +10,16 @@ with open(path.join(here, 'README.md')) as file:
     long_description = file.read()
 
 setup(
-    name='steg',
+    name='steggy',
     version=about['__version__'],
-    description='steg 🐕 is an easy to use python 🐍 library for requests',
+    description='steggy 🐕 is an easy to use python 🐍 library for requests',
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires=">=3.7",
     package_dir={"steg": "steg"},
     entry_points={"console_scripts": ["steg=steg._steg:run"]},
     author='Rayan25062011',
-    url='https://github.com/Rayan25062011/Steg',
+    url='https://github.com/Rayan25062011/steggy',
     packages=find_packages(),
     license='Apache-2.0 License',
     install_requires=[
