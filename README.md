@@ -5,7 +5,7 @@ steg 🐕 is an easy to use python 🐍  library for requests
 
 # Install
 ```
-python -m pip install steg
+git clone https://github.com/Rayan25062011/steg
 ```
 
 # How to use
