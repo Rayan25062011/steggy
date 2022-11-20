@@ -38,4 +38,10 @@ class steg(object):
                 pass
         else:
             raise StegError("Unable to send data")
+            
+            
+    def source(*args, site):
+        r = requests.get(site)
+        print(r.text)
+
 
