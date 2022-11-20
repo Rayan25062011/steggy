@@ -7,6 +7,11 @@ steg 🐕 is an easy to use python 🐍  library for requests
 ```
 git clone https://github.com/Rayan25062011/steggy
 ```
+## setup
+Run the following to begin
+```
+./setup.sh
+```
 
 # How to use
 
