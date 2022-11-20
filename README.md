@@ -36,6 +36,6 @@ s = s.find(site="https://example.com", data="example2", display_response=True, c
 ```
 New definitions:
 
-content: content is the content received by the website, if you enable it, it will show any terminal UI
+content: content is the content received by the website, if you enable it, it will show the content received
 
 headers: headers is an HTTP header you can use while getting some data
