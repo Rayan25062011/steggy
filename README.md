@@ -44,3 +44,14 @@ New definitions:
 content: content is the content received by the website, if you enable it, it will show the content received
 
 headers: headers is an HTTP header you can use while getting some data
+
+## Page source code
+This option is for getting the source code of a specific page
+```python
+from steg import *
+s = steg()
+s = s.source(site="http://example.com")
+```
+
+# Terms of use
+Do not use this for any malicious activity, i am not responsible for any of your actions. Use this responsibly.
