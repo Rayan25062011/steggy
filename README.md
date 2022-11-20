@@ -50,7 +50,7 @@ This option is for getting the source code of a specific page
 ```python
 from steg import *
 s = steg()
-s = s.source(site="http://example.com")
+s = s.source(site="http://example.com/page.php?id=value")
 ```
 
 # Terms of use
